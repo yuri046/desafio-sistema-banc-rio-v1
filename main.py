@@ -4,6 +4,9 @@ saques = []
 LIMITE_SAQUE = 3
 limite = 500.0
 
+'''
+    Exibe o menu e chama as outras funções do sistema
+'''
 def menu():
     while True:
         print('Menu\
@@ -118,4 +121,7 @@ def exibe_extrato( depositos, saques):
             print('Insira uma opção válida')
                          
 
+'''
+    Chama a função menu
+'''
 menu()
